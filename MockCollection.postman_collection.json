@@ -1,0 +1,204 @@
+{
+	"info": {
+		"_postman_id": "a5c8bc0a-cfc5-47c9-a786-87c4ce56d9de",
+		"name": "MockCollection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10261107"
+	},
+	"item": [
+		{
+			"name": "get Quantities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://4a083149-fac1-4775-8a28-4ea5851f98aa.mock.pstmn.io/getQuantities",
+					"protocol": "https",
+					"host": [
+						"4a083149-fac1-4775-8a28-4ea5851f98aa",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"getQuantities"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://4a083149-fac1-4775-8a28-4ea5851f98aa.mock.pstmn.io/getQuantities",
+							"protocol": "https",
+							"host": [
+								"4a083149-fac1-4775-8a28-4ea5851f98aa",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"getQuantities"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 10 Aug 2024 15:44:55 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "164"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=44fefe238b65f630"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=88beecb26fa2046f"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "119"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1723304754"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a4-7hO0T/XLq3TuFViTu2ZVQQdIY+A\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"quantities\": [\n    {\n      \"name\": \"Product-1\",\n      \"quantity\": 5\n    },\n    {\n      \"name\": \"Product-2\",\n      \"quantity\": 32\n    }\n  ]\n}"
+				}
+			]
+		},
+		{
+			"name": "get Products",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://4a083149-fac1-4775-8a28-4ea5851f98aa.mock.pstmn.io/getProducts",
+					"protocol": "https",
+					"host": [
+						"4a083149-fac1-4775-8a28-4ea5851f98aa",
+						"mock",
+						"pstmn",
+						"io"
+					],
+					"path": [
+						"getProducts"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "New Request",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://4a083149-fac1-4775-8a28-4ea5851f98aa.mock.pstmn.io/getProducts",
+							"protocol": "https",
+							"host": [
+								"4a083149-fac1-4775-8a28-4ea5851f98aa",
+								"mock",
+								"pstmn",
+								"io"
+							],
+							"path": [
+								"getProducts"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Sat, 10 Aug 2024 15:48:16 GMT"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "150"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=ed635c779118a3e2"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=d0b82f64a77da3f5"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "119"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1723304956"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"96-S/5iQ2y1qqIInh5BwoPc+chvDJU\""
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"products\": [\n    {\n      \"name\": \"Product-1\",\n      \"price\": 500\n    },\n    {\n      \"name\": \"Product-2\",\n      \"price\": 1000\n    }\n  ]\n}"
+				}
+			]
+		}
+	]
+}

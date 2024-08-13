@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "012c7314-638c-4ea0-bb29-29834c5eea00",
+		"name": "Server Requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "10261107"
+	},
+	"item": [
+		{
+			"name": "Inventory Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/getInventory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getInventory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update Properties",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/getInventory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getInventory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Properties",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/getInventory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getInventory"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
