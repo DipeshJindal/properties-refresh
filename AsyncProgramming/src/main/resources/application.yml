@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    openfeign:
+      client:
+        config:
+          product-service:
+            url: "https://4a083149-fac1-4775-8a28-4ea5851f98aa.mock.pstmn.io"
+            connect-timeout: 2000
+            read-timeout: 2000
+          quantities-service:
+            url: "https://4a083149-fac1-4775-8a28-4ea5851f98aa.mock.pstmn.io"
+            connect-timeout: 2000
+            read-timeout: 2000
+#
+#logging:
+#  level:
+#    root: debug
+management:
+  endpoint:
+    restart:
+      enabled: true
